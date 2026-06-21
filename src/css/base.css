@@ -30,3 +30,8 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+
+.center{
+  text-align: center;
+}
