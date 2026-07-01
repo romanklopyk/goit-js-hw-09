@@ -1,0 +1,10 @@
+.form-container :is(form, label){
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+input, textarea, button {
+  padding: 8px;
+  font-size: 1.5rem ;
+}
