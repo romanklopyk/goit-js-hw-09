@@ -54,4 +54,8 @@ function clearLocalStorage() {
     window.localStorage.removeItem('feedback-form-state');
 }
 
-// lalala
+function github() {
+    console.log('github');
+}
+
+github();
