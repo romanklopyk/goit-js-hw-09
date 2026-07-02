@@ -102,6 +102,6 @@ function app() {
 
 app();
 
-// console.log('Gallery is ready');
-// console.log({ SimpleLightbox });
+console.log('Gallery is ready');
+console.log({ SimpleLightbox });
 
