@@ -3,7 +3,7 @@ const formData = {
     message: '',
 };
 
-const $form = document.querySelector('#form');
+const $form = document.querySelector('.feedback-form');
 
 $form.addEventListener('input', (e) => {
     e.preventDefault();
