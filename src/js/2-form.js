@@ -8,6 +8,7 @@ const $form = document.querySelector('#form');
 $form.addEventListener('input', (e) => {
     e.preventDefault();
     formData[e.target.name] = e.target.value;
+    window.localStorage.setItem('feedback-form-state', JSON.stringify(formData));
 });
 
 $form.addEventListener('submit', (e) => {
