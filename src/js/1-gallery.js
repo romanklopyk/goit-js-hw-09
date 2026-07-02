@@ -97,11 +97,7 @@ function app() {
         captionsData: 'alt',
         captionDelay: 250,
     });
-
 }
 
 app();
-
-console.log('Gallery is ready');
-console.log({ SimpleLightbox });
 
